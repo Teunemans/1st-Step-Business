@@ -23,3 +23,48 @@ body {
     width: 20%;
     height: auto;
 }
+
+.gridcontainer {
+    display: grid;
+    grid-template-areas:
+    "img1 text1"
+    "text2 img2"
+    "img3 text3";
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+.img1 {
+    grid-area: img1;
+    width: 20%;
+    height: auto;
+}
+.img2 {
+    grid-area: img2;
+    width: 20%;
+    height: auto;
+}
+.img3 {
+    grid-area: img3;
+    width: 20%;
+    height: auto;
+}
+
+.text1 {
+    grid-area: text1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}	
+.text2 {
+    grid-area: text2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.text3 {
+    grid-area: text3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
