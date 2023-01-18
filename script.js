@@ -1,0 +1,1 @@
+image1 = document.getElementById("image1");
