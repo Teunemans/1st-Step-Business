@@ -136,6 +136,21 @@ body
 
 .navlink:hover {
   background: linear-gradient(to bottom left, #ff33cc 0%, #00ccff 100%);
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 0 10px 5px 10px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.footertext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
