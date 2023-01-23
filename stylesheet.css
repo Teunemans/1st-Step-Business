@@ -23,6 +23,7 @@ body
   background-color: black;
   border-radius: 20px;
   margin: 20px;
+  box-shadow: 0 2px 10px black;
 }
 
 .navitem
@@ -69,87 +70,31 @@ body
   color: white;
 }
 
+.step1 
+{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+  margin: 35px 20px 20px 20px;
+  box-shadow: 0 10px 7px black;
+  height: 730px;
+}
+.img1
+{
+  width: 100%;
+  height: auto;
+  background-color: grey;
+}
+.text1 
+{
+  display: block;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 .steps
 {
-  width: 80%;
-  margin: 50px 0 0 20px;
-}
-
-.textstep
-{
-  margin: 50px 20px 0 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
-  font-weight: bold;
-  width: 100%;
-}
-
-.undertextstep
-{
-  margin-right: 20px;
-  margin-left: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: xx-large;
-}
-
-.stappen
-{
-  display: grid;
-  grid-template-areas: "step1 step2"
-  "step1 step3";
-}
-
-.step1
-{
-  grid-area: step1;
-}
-
-.step2
-{
-  grid-area: step2;
-}
-
-.centerDiv {
-  display: flex;
-  justify-content: center;
-}
-
-.step3
-{
-  grid-area: step3;
-}
-
-.stappen2
-{
-  display: grid;
-  grid-template-areas: "step2 step1"
-  "step3 step1";
-}
-
-.stappen3
-{
-  display: grid;
-  grid-template-areas: "step1 step2"
-  "step1 step3";
-}
-
-.navlink:hover {
-  background: linear-gradient(to bottom left, #ff33cc 0%, #00ccff 100%);
-  border-radius: 10px;
-  padding: 0 10px 5px 10px;
-}
-
-.footer {
-  background-color: black;
-  color: white;
   text-align: center;
-  padding: 10px;
-  margin-top: 20px;
-}
-
-.footertext {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  color: white;
-  text-decoration: none;
 }
