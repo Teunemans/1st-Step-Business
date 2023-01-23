@@ -36,6 +36,12 @@ body
   margin-bottom: 5px;
 }
 
+.navitem:hover
+{
+  background-color: #ff33cc;
+  border-radius: 20px;
+}
+
 .nonetext
 {
   text-decoration: none;
@@ -97,4 +103,8 @@ body
 .steps
 {
   text-align: center;
+}
+
+.stepText {
+  font-family: Arial, Helvetica, sans-serif;
 }
