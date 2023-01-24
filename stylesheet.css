@@ -47,7 +47,7 @@ body
   border-radius: 20px;
 }
 
-.navitem:hover
+.normalItem:hover
 {
   background-color: #ff33cc;
   border-radius: 20px;
