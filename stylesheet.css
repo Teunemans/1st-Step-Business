@@ -119,3 +119,7 @@ body
 .stepText {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.shadowborder {
+  border: 5px solid black;
+}
