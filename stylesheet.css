@@ -265,13 +265,15 @@
 .tierContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
 }
 
-.tiers {
+.tiers, .tier3 {
   transition: .3s;
   width: 30%;
+  height: 400px;
   margin: 20px;
   border-radius: 20px;
   align-items: center;
@@ -290,3 +292,15 @@
   vertical-align: end;
 }
 
+.tier3:hover {
+  transition: .3s;
+box-shadow: 0 0 100px orangered;
+width: 40%;
+height: 450px;
+}
+
+.balls
+{
+  background-color: black;
+  height: 300px;
+}
