@@ -270,6 +270,7 @@
 }
 
 .tiers {
+  transition: .3s;
   width: 30%;
   margin: 20px;
   border-radius: 20px;
@@ -277,5 +278,15 @@
   border: white 2px solid;
   padding: 20px;
   font-family: 'Roboto Mono', monospace;
+  background-color: white;
+}
+
+.tiers:hover {
+  box-shadow: 0 0 50px lightblue;
+  transition: .3s;
+  transition-timing-function: ease-in-out;
+}
+.price {
+  vertical-align: end;
 }
 
