@@ -238,21 +238,19 @@
   margin: 20px;
 }
 =======
-.tierContainer {
+
+.tierContainer
+{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+  margin: 30px;
 }
 
 .tiers, .tier3 {
   transition: .3s;
-  width: 30%;
+  width: 25%;
   height: 400px;
   margin: 20px;
   border-radius: 20px;
-  align-items: center;
   border: white 2px solid;
   padding: 20px;
   font-family: 'Roboto Mono', monospace;
@@ -264,9 +262,7 @@
   transition: .3s;
   transition-timing-function: ease-in-out;
 }
-.price {
-  vertical-align: end;
-}
+
 
 .tier3:hover {
   transition: .3s;
