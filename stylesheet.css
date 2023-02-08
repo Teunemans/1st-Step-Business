@@ -243,6 +243,8 @@
 {
   display: flex;
   margin: 30px;
+  overflow-y: scroll;
+  max-height: 80%;
 }
 
 .tiers, .tier3 {
@@ -255,6 +257,7 @@
   padding: 20px;
   font-family: 'Roboto Mono', monospace;
   background-color: white;
+  size: 30%;
 }
 
 .tiers:hover {
