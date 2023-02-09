@@ -197,41 +197,6 @@
   margin: 20px;
 }
 
-
-.tierContainer
-{
-  display: flex;
-  justify-content: center;
-  margin: 30px;
-  overflow-y: scroll;
-}
-
-.tiers, .tier3 {
-  transition: .3s;
-  width: 25%;
-  height: 100%;
-  margin: 20px;
-  border-radius: 20px;
-  border: white 2px solid;
-  padding: 20px;
-  font-size: 1vw;
-  font-family: 'Roboto Mono', monospace;
-  background-color: white;
-  display: block;
-}
-
-.tiers:hover {
-  box-shadow: 0 0 50px lightblue;
-  transition: .3s;
-  transition-timing-function: ease-in-out;
-}
-
-
-.tier3:hover {
-  transition: .3s;
-box-shadow: 0 0 100px orangered;
-}
-
 .bereiken
 {
   text-align: center;
@@ -301,4 +266,54 @@ strong
 .imggfx:hover{
   transition: .2s;
   box-shadow: 0 0 30px black;
+}
+
+
+
+
+
+
+.producten
+{
+
+}
+
+.producttext
+{
+  display: block;
+  margin: 20px;
+}
+
+.product:hover
+{
+  transition: .2s;
+  box-shadow: 0 0 20px white;
+}
+
+.product
+{
+  transition: .5s;
+  display: flex;
+  justify-content: space-between;
+  background-color: #00ccff;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.productheader
+{
+  font-size: 2vw;
+}
+
+.productb
+{
+ font-size: 1vw;
+}
+
+.productimg
+{
+  margin: 20px;
+  border-radius: 20px;
+  width: 20vw;
+  height: auto;
 }
