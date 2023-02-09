@@ -167,6 +167,7 @@
 }
 
 
+
 .textsubjects2
 {
   margin-right: auto;
@@ -195,12 +196,14 @@
   text-shadow: 2px 2px 5px  #ff33cc;
   margin: 20px;
 }
-=======
+
 
 .tierContainer
 {
   display: flex;
   margin: 30px;
+  overflow-y: scroll;
+  max-height: 80%;
 }
 
 .tiers, .tier3 {
@@ -213,6 +216,7 @@
   padding: 20px;
   font-family: 'Roboto Mono', monospace;
   background-color: white;
+  size: 30%;
 }
 
 .tiers:hover {
@@ -236,3 +240,9 @@ height: 450px;
   color: white;
 }
 
+.contactText
+{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.5vw;
+  margin: 20px;
+}
