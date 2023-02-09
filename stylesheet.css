@@ -281,3 +281,24 @@ strong
   font-weight: bold;
 }
 
+.imagesgfx
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.imggfx
+{
+ transition: 1s;
+ width: 30%;
+ height: auto;
+ border-radius: 20px;
+}
+
+.imggfx:hover{
+  transition: .2s;
+  box-shadow: 0 0 30px black;
+}
