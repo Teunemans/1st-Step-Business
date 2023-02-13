@@ -3,6 +3,13 @@
   background: linear-gradient(to bottom left, #ff33cc 0%, #00ccff 100%);
 }
 
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px
+}
+
 .navcontainer
 {
   display: flex;
@@ -268,11 +275,6 @@ strong
   box-shadow: 0 0 30px black;
 }
 
-
-
-
-
-
 .producten
 {
 
@@ -303,11 +305,14 @@ strong
 .productheader
 {
   font-size: 2vw;
+  font-family: 'Roboto', sans-serif;
 }
 
 .productb
 {
  font-size: 1vw;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 300;
 }
 
 .productimg
